@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+
+    <script src="https://kit.fontawesome.com/09e8ebdc26.js" crossorigin="anonymous"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="https://kit.fontawesome.com/c54dae7f4d.js" crossorigin="anonymous"></script>
+   
+
+<style>
+    .book{
+        margin-top: 5rem;
+    }
+    p{
+        font-size: 2rem;
+    }
+    .heading{
+    text-align: center;
+    padding: 2.5rem 0;
+}
+.heading span{
+    font-size: 3rem;
+    color: #000000;
+    border-radius: .5rem;
+    padding: .2rem 0.5rem;
+}
+.heading>span{
+    animation:glow 3s ease-in-out infinite;
+}
+    .row .image{
+        width: 100%;
+    }
+@keyframes glow
+{
+    0%,100%
+    {
+        color: #fff;
+        text-shadow: 0 0 12px rgb(63, 30, 85) ,0 0 100px rgb(63, 30, 85);
+    }
+    10%,90%{
+        color: #111;
+        text-shadow: none;
+    }
+}
+.heading>span:nth-child(2){
+    animation-delay: 0.20s;
+}
+.heading>span:nth-child(3){
+    animation-delay: 0.40s;
+}
+.heading>span:nth-child(4){
+    animation-delay: 0.60s;
+}
+.heading>span:nth-child(5){
+    animation-delay: 0.80s;
+}
+.heading>span:nth-child(6){
+    animation-delay: 1s;
+}
+.heading>span:nth-child(7){
+    animation-delay: 1.20s;
+}
+.heading>span:nth-child(8){
+    animation-delay: 1.40s;
+}
+.heading>span:nth-child(9){
+    animation-delay: 1.6s;
+}
+.heading>span:nth-child(10){
+    animation-delay: 1.8s;
+}
+.heading>span:nth-child(11){
+    animation-delay: 2s;
+}
+.heading>span:nth-child(12){
+    animation-delay: 2.20s;
+}
+.heading>span:nth-child(13){
+    animation-delay: 2.40s;
+}
+</style>
+</head>
+<body>
+
+    <header>
+
+        <div id="menu-bar" class="fas fa-bars"></div>
+    <a href="#" class="logo"><span>T</span>ravel
+    <nav class="navbar">
+        <a href="index.html">Home</a>
+        <a href="index.html">Book</a>
+        <a href="index.html">Packages</a>
+        <a href="index.html">Services</a>
+        <a href="index.html">Gallery</a>
+        <a href="index.html">Review</a>
+        <a href="index.html">Contact</a>
+    </nav>
+    <div class="icons">
+    <i class="fas fa-search" id="search-btn"></i>
+    <i class="fas fa-user" id="login-btn"></i>
+    </div>
+    
+    <form action="" class="search-bar-container">
+        <input type="search" id="search-bar" placeholder="Search here...">
+        <label for="search-bar"class="fas fa-search"></label>
+    </form>
+    
+    </header>
+
+    <section class="book" id="book">
+
+        <h1 class="heading">
+            <span>J</span>
+            <span>A</span>
+            <span>I</span>
+            <span>S</span>
+            <span>A</span>
+            <span>L</span>
+            <span>M</span>
+            <span>E</span>
+            <span>R</span>
+            
+            
+        </h1>
+        
+        <div class="row">
+            <div class="image">
+                <img src="p6.webp" alt="">
+            </div>
+        <p>
+            Jaisalmer is a city located in the western part of Rajasthan, India. It is also known as the “Golden City” due to the yellow sandstone used in its architecture. The city is home to several historical monuments and beautifully carved temples. The most prominent landmark in Jaisalmer is the Jaisalmer Fort, also known as Sonar Qila (Golden Fort). Unlike most other forts in India, Jaisalmer Fort is not just a tourist attraction. It houses shops, hotels and ancient havelis (homes) where generations continue to live 2.
+
+            Jaisalmer is situated in the western part of Rajasthan, and on its north-west is Pakistan. On the south and east are the districts of Jodhpur, Barmer and Bikaner. It is a dry, sandy wasteland where nothing grows, and it forms a part of the Great Indian desert or Thar desert 
+        </p>
+            
+        </div>
+        </section>
+
+
+        <script src="index.js"></script>
+</body>
+</html>

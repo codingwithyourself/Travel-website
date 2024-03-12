@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+
+    <script src="https://kit.fontawesome.com/09e8ebdc26.js" crossorigin="anonymous"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="https://kit.fontawesome.com/c54dae7f4d.js" crossorigin="anonymous"></script>
+   
+
+<style>
+    .book{
+        margin-top: 5rem;
+    }
+    p{
+        font-size: 2rem;
+    }
+    .heading{
+    text-align: center;
+    padding: 2.5rem 0;
+}
+.heading span{
+    font-size: 3rem;
+    color: #000000;
+    border-radius: .5rem;
+    padding: .2rem 0.5rem;
+}
+.heading>span{
+    animation:glow 3s ease-in-out infinite;
+}
+    .row .image{
+        width: 100%;
+    }
+@keyframes glow
+{
+    0%,100%
+    {
+        color: #fff;
+        text-shadow: 0 0 12px rgb(63, 30, 85) ,0 0 100px rgb(63, 30, 85);
+    }
+    10%,90%{
+        color: #111;
+        text-shadow: none;
+    }
+}
+.heading>span:nth-child(2){
+    animation-delay: 0.20s;
+}
+.heading>span:nth-child(3){
+    animation-delay: 0.40s;
+}
+.heading>span:nth-child(4){
+    animation-delay: 0.60s;
+}
+.heading>span:nth-child(5){
+    animation-delay: 0.80s;
+}
+.heading>span:nth-child(6){
+    animation-delay: 1s;
+}
+.heading>span:nth-child(7){
+    animation-delay: 1.20s;
+}
+.heading>span:nth-child(8){
+    animation-delay: 1.40s;
+}
+.heading>span:nth-child(9){
+    animation-delay: 1.6s;
+}
+.heading>span:nth-child(10){
+    animation-delay: 1.8s;
+}
+.heading>span:nth-child(11){
+    animation-delay: 2s;
+}
+.heading>span:nth-child(12){
+    animation-delay: 2.20s;
+}
+.heading>span:nth-child(13){
+    animation-delay: 2.40s;
+}
+</style>
+</head>
+<body>
+
+    <header>
+
+        <div id="menu-bar" class="fas fa-bars"></div>
+    <a href="#" class="logo"><span>T</span>ravel
+    <nav class="navbar">
+        <a href="index.html">Home</a>
+        <a href="index.html">Book</a>
+        <a href="index.html">Packages</a>
+        <a href="index.html">Services</a>
+        <a href="index.html">Gallery</a>
+        <a href="index.html">Review</a>
+        <a href="index.html">Contact</a>
+    </nav>
+    <div class="icons">
+    <i class="fas fa-search" id="search-btn"></i>
+    <i class="fas fa-user" id="login-btn"></i>
+    </div>
+    
+    <form action="" class="search-bar-container">
+        <input type="search" id="search-bar" placeholder="Search here...">
+        <label for="search-bar"class="fas fa-search"></label>
+    </form>
+    
+    </header>
+
+    <section class="book" id="book">
+
+        <h1 class="heading">
+            <span>N</span>
+            <span>A</span>
+            <span>H</span>
+            <span>A</span>
+            <span>G</span>
+            <span>A</span>
+            <span>R</span>
+            <span>H</span>
+           
+            
+            
+        </h1>
+        
+        <div class="row">
+            <div class="image">
+                <img src="p13.jpg" alt="">
+            </div>
+        <p>
+            Amer Fort, also known as Amber Fort, is a historic fort located in Amer, Rajasthan, India. It was built in 1592 by Raja Man Singh I and is situated on a hill overlooking Maota Lake 1. The fort is made of red sandstone and marble and is a fine example of Rajput architecture 1. The fort has four main sections, each with its own courtyard 1. The main entrance to the fort is through the Suraj Pol or Sun Gate, which leads to the Jaleb Chowk, a large courtyard where returning armies would display their war booty to the populace 1. The second courtyard houses the Diwan-i-Am or Hall of Public Audience, where the king would meet with his subjects and hear their grievances 1. The third courtyard houses the Diwan-i-Khas or Hall of Private Audience, where the king would meet with his ministers and other important people 1. The fourth courtyard houses the Sheesh Mahal or Palace of Mirrors, which is decorated with thousands of tiny mirrors that reflect light in a dazzling display. 
+        </div>
+        </section>
+
+
+        <script src="index.js"></script>
+</body>
+</html>
